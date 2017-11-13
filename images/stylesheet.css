@@ -1,0 +1,223 @@
+
+
+h1 {
+  font-size: 2.0em;
+  font-style: normal;
+  font-family: helvetica,arial,verdana,sans-serif;
+  font-weight: 600;
+  color: rgb(51,51,51);
+  text-align: right;
+}
+
+
+
+h2 {
+  font-size: 1.5em;
+  font-style: normal;
+  font-family: helvetica,arial,verdana,sans-serif;
+  font-weight: 100;
+  color: rgb(51,51,51);
+}
+
+.featureImage{
+  width: 100%
+  /*clip-path: rectangle(0, 0, 80%, 80%, 0, 0)*/
+}
+
+.featuredWork{
+  /*display : flex;
+  flex-wrap: wrap;*/
+  /*width: 600%;*/
+  width : 33%;
+  text-align: center;
+  vertical-align: center;
+  padding: 0px;
+  /*border : 1px solid grey;*/
+  background-color: white;
+}
+
+.featuredWorkImage{
+  max-width: 60%;
+  /*align-content: center;
+  vertical-align: center;
+  align-content: center;  */
+}
+
+.flexContainer{
+  display : flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.headerSection{
+  display : flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 100%;
+}
+
+.headerSectionColumn1{
+  width: 20%;
+}
+.headerSectionColumn2{
+  width: 10%;
+}
+.headerSectionColumn3{
+  width: 90%;
+}
+
+.logo {
+  width: 100%;
+  /*width: auto;*/
+  margin:0;
+  }
+
+.mainSection{
+  display : flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.mainSectionColumn1{
+  width: 20%;
+}
+.mainSectionColumn2{
+  width: 80%;
+}
+
+.mainSectionColumn2a{
+  width: 30%;
+}
+.mainSectionColumn2b{
+  width: 70%;
+}
+
+.myParagraph{
+  font-size: 1.0em;
+  font-style: normal;
+  font-family: helvetica,arial,verdana,sans-serif;
+  font-weight: 100;
+  color: rgb(51,51,51);
+}
+
+.myTitle {
+  font-size: .5em;
+  font-style: normal;
+  font-family: helvetica,arial,verdana,sans-serif;
+  font-weight: 100;
+  color: rgb(51,51,51);
+}
+
+.name {
+  font-size: 2.0em;
+  font-style: normal;
+  font-family: helvetica,arial,verdana,sans-serif;
+  font-weight: 600;
+  color: rgb(51,51,51);
+}
+
+.pageBorder{
+  padding: 80px;
+}
+
+.photo{
+  max-width: 80%;
+  padding-top: 110px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pushDown{
+  padding-top: 10px;
+}
+
+.right {
+   /*margin-left: right;*/
+   text-align: right;
+   /*padding-left: 50%;*/
+
+   /*justify-content: right;
+   align-content: right;
+   align-items: right;*/
+}
+
+.textTreatment{
+  font-size: 1.5em;
+  font-style: normal;
+  font-family: helvetica,arial,verdana,sans-serif;
+  font-weight: 100;
+  color: rgb(51,51,51);
+}
+
+/*mobile phone screen*/
+@media screen and (min-width: 1px) and (max-width:640px) {
+
+    .pageBorder{
+      padding: 10px;
+    }
+
+    .headerSectionColumn1{
+      width: 20%;
+    }
+    .headerSectionColumn2{
+      width: 30%;
+    }
+    .headerSectionColumn3{
+      width: 70%;
+    }
+
+
+    .mainSectionColumn1{
+      width: 100%;
+      vertical-align: center;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+  align-items: center;
+
+      /*align-content: center;*/
+    }
+    .mainSectionColumn2{
+      width: 100%;
+    }
+    .mainSectionColumn2a{
+      width: 0%;
+    }
+    .mainSectionColumn2b{
+      width: 0%;
+    }
+
+    .photo{
+      max-width: 100%;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      /*align-content: center;*/
+    }
+
+
+
+    .myParagraph{
+      font-size: 1.0em;
+      font-style: normal;
+      font-family: helvetica,arial,verdana,sans-serif;
+      font-weight: 100;
+      color: rgb(51,51,51);
+    }
+
+    .textTreatment{
+      font-size: 1.0em;
+      font-style: normal;
+      font-family: helvetica,arial,verdana,sans-serif;
+      font-weight: 100;
+      color: rgb(51,51,51);
+    }
+
+  }
+
+/*middle size screen*/
+    @media screen and (min-width: 641px) and (max-width:1007px) {
+        body {
+/*TO DO: another break*/
+        }
+    }
