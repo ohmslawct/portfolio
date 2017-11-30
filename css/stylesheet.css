@@ -29,7 +29,6 @@ a {
   text-decoration: none;
 }
 
-
 .containerForImageRollover {
   position: relative;
   width: 50%;
@@ -171,11 +170,12 @@ a {
 }
 
 .name {
-  font-size: 2.0em;
+  font-size: 1.0em;
   font-style: normal;
   font-family: helvetica,arial,verdana,sans-serif;
   font-weight: 600;
   color: rgb(51,51,51);
+  text-align: right;
 }
 
 .pageBorder{
